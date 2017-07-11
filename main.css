@@ -171,7 +171,7 @@ input{
         color:#758B99;
        
 }
-.panel-body .glyphicon {
+.panel-body .glyphicon  {
         
     margin-left: 10px;
     margin-right: 4px;
@@ -225,7 +225,8 @@ h3{
         
 }
 .media-body span{
-        color:#1d2129;
+        color:#365899;
+        
 }
 input{
         width:508px;
@@ -301,4 +302,10 @@ body{
           
         
     padding: 0 12px 12px;
+}
+input #search{
+        background: :url("https://l.facebook.com/l.php?u=http%3A%2F%2Fi.imgur.com%2FoHTqIVG.png&h=ATMmAeqRii8O9iPN3yZJB7N1et8h2w2kKVKrZIKoOMWLAzdlk6CzoFXjDJETM57BtmzPyCqkGWygnJokh7lovEG_YhI4X-gTZw3Ojij-aLiQ2WYB5ay6HBJTkvFm8aCyU8iB25ksgspXdA");
+
+        border:o;
+        
 }
