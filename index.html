@@ -32,16 +32,16 @@
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left">
           <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search facebook" size="40"; >&nbsp;<input type="submit"  value="search" class="form-control" size="34">
+          <input type="text" class="form-control" placeholder="Search facebook" size="40";><input type="submit" id="search" value="submit" class="form-control" size="34">
           </div> 
           </form>
               <ul class="nav navbar-nav navbar-right">
               <li><a href="a" class="white-text"> <img src="http://i.imgur.com/R14Q3u3.jpg?2">  Simar</a></li>
-              <li><a href="#" class="white-text">Home</a></li>
+              <li><a href="#" class="white-text">Home<span class="badge headerbadge">5</span></a></li>
               
               <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
               <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-globe white" aria-hidden="true"><span class="badge headerbadge">13</span></span></a></li>
               <li><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
               <li class="dropdown"></li>
               <li class="dropdown">
@@ -66,14 +66,16 @@
             
             
             
- </header>
+ </header><!--/.Ending of header -->
+                
+         <!--/.Starting of menubar -->
                 
         <div class="row">
         <div class="hidden-xs col-sm-4 col-md-2"><div id="menu">
                  <ul class="nav nav-pills nav-stacked">
           <li role="presentation"><a href="#"><img src="http://i.imgur.com/R14Q3u3.jpg?2"> Simar Ashliee</a></li>
                          
-          <li role="presentation"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;News Feed</a></li>
+          <li role="presentation"><a href="#"><img src="http://i.imgur.com/O4J2oaK.png" height="25px" width="25px">&nbsp;News Feed</a></li>
           <li role="presentation"><a href="#"><img src="http://i.imgur.com/2zlw3Zd.png"  height="25px" width="25px">&nbsp;Messenger</a></li>
                          
                          <p class="list-heading">EXPLORE</p>
@@ -97,150 +99,226 @@
 <li role="presentation" style="display:inline;font-size:12px;" class="abc"><a href="#">Group.</a></li>
 <li role="presentation" style="display:inline;font-size:12px;" class="abc"><a href="#">Event</a></li>
                                  </ul>
-        
+                   </div></div>
+                
+                <!--/. Ending of menubar-->
                 
                 
-                </div></div>
-                
-                 <div class="col-xs-12 col-sm-8 col-md-6"><div id="main">
-                
-                                            <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                    <h3 class="panel-title" style=""><a href="#"><img src ="http://i.imgur.com/4d4VRuj.jpg?1"> <b>Saju Newar</b>&nbsp;</a>updated her status.</h3>
-                                            </div>
-                                            <div class="panel-body">
-                                            <div>   <blockquote>
+                <!--/.Starting of mainbar-->
+                          <div class="col-xs-12 col-sm-8 col-md-6"><div id="main">
+                          <div class="panel panel-default">
+                          <div class="panel-heading">
+                                  <h3 class="panel-title"><span id="createpost"><img src="http://i.imgur.com/NqFHeOX.png?1"><b>Create a Post </b></span>|&nbsp;<img src="http://i.imgur.com/NFfBRLZ.png?2"> <span class ="photolive"><b>Photo/Video Album</b></span> |&nbsp;<img src=" http://i.imgur.com/2rpV7D5.png?1"><span class="photolive"><b>Live Video</b></span></h3>
+                          </div>
+                          <div class="panel-body" style="height: 80px;padding: 15 15 30 15;">
+                          <img src="http://i.imgur.com/5p8SaJO.jpg?4 ">&nbsp; What's on your mind?
+                          </div>
+                              <div class="panel-footer"><span class="badgefooter"><img src="http://i.imgur.com/xm6G7hw.png?1">Photo/Vedio</span> &nbsp;&nbsp;&nbsp;<span class="badgefooter"><img src="http://i.imgur.com/cbX2c3I.png?1">Feeling/Activity</span>&nbsp;&nbsp;&nbsp;<span class="badgefooter"><img src="http://i.imgur.com/NfgI5ii.png?1"></span></div>
+                          </div>
+                        <!--initialisation of first post-->
+
+                         <div class="panel panel-default">
+                         <div class="panel-heading">
+                                 <div class="h1h2">
+                                                    <h3 class="panel-title" style=""><a href="#"><img src ="http://i.imgur.com/4d4VRuj.jpg?1"> <b class="sajunewar">Saju Newar</b>&nbsp;</a>updated her status.<br><h5 class="time">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12:00 <img src="http://i.imgur.com/czIJcco.png" height=12px width=12px>   </h5>
+                                 </h3></div></div>
+                         <div class="panel-body">
+                         <div>                     <blockquote>
                                                     <div><p>    I often scribble in the sand<br> 
                                                                 The words I find so hard to say<br>
                                                                 And hope the wind will come along<br>
                                                                 And blow them all your way.</p><footer>W.C Fields</footer>
+                                                            
                                                     </div>
                                                     </blockquote>
-                                                   <div align="justify"> <span style="color:black;align"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="color:black;" ></span>Like</span>
+                         <div> <span style="color:black;align"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="color:black;" ></span>Like</span>
         <span style="color:black;"><span class="glyphicon glyphicon-comment" aria-hidden="true" style="color:black; " pull=left></span>Comment</span>
-    </div>
-                      
-        
-                       
-                  
-
-                                                    
-                                            </div>
-                                            </div>
-                                            <div class="panel-footer">
-                                                    
-                                                    
-                                                    <div class="media">
+                                                                    
+                        <span style="color:black;"><span class="glyphicon glyphicon-share" aria-hidden="true" style="color:black;"></span>share</span>                                                                                 
+                                                           
+                                 </div>
+                                 </div>
+                                 </div>
+                                 
+                    <!--Adding comments-->
+                                 
+                 <div class="panel-footer">
+                                                          <div class="media">
                                                           <div class="media-left">
-                                                            <a href="#">
-                                                        <img class="media-object" src="http://i.imgur.com/VRKyC58.png?1" >
-                                                            </a>
+                                                          <a href="#">
+                                                          <img class="media-object" src="http://i.imgur.com/n2IzJco.jpg?1" >
+                                                          </a>
                                                           </div>
                                                           <div class="media-body">
-                                                <p><b><a href="#"><b>Neha Gurung</b>&nbsp;</a><span>having nice thought...</span></p>
+                                                                  <p><a href="#"><span clas="nehagurung">Neha Gurung</span></a>&nbsp;<span class="neha">having nice thought...</span></p>
                                                                   
                                                           </div>
                                                           </div>
-               <div class="panel-footer"> 
-        
-                       <p><img src="http://i.imgur.com/5p8SaJO.jpg?2" class="image1"><input type="text" placeholder="&nbsp;write a comment... "  size="75" class="image1" ></p></div></div>
+                      <div class="panel-footer"> 
+                      <p>
+                      <img src="http://i.imgur.com/R14Q3u3.jpg?3" class="image1"><input type="text" placeholder="&nbsp;write a comment... "  size="75" class="image1" >
+                      </p>
+                     </div></div>
+                     </div>
+                
+                
+                
+                <!--Initilisation of second post-->
+                
+                
+		            <div class="col-md-13"><div id="main1">
+                
+                        <div class="panel panel-default">
+                        <div class="panel-heading">
+                                <div>
+                                                    <h3 class="panel-title"><a href="#"><img src="http://i.imgur.com/iwSsj8P.jpg?1"><b> Vanshita Chauhan</b>&nbsp;</a>updated her cover photo.<br><h5 class="time">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:45 <img src="http://i.imgur.com/czIJcco.png" height=12px width=12px>   </h5>
+                                 </h3></div>
+                                
                                             </div>
-                
-                
-                
-                
-                
-                
-		 <div class="col-md-13"><div id="main1">
-                
-                                            <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                    <h3 class="panel-title"><a href="#"><img src="http://i.imgur.com/iwSsj8P.jpg?1"><b> Vanshita Chauhan</b>&nbsp;</a>updated her cover photo.</h3>
-                                            </div>
-                                            <div class="panel-body">
-                                            <div>   <blockquote>
-                                                    <div><img src="https://resources.workable.com/wp-content/uploads/2016/03/thumb-how-to-post-a-job-on-facebook.png" class="img-responsive" alt="Responsive image">
+                        <div class="panel-body">
+                        <div>   
+                                                    <blockquote>
+                                                    <div><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/160825160953-05-week-in-photos-0826-super-169.jpg" height="3200" width="1500" class="img-responsive" alt="Responsive image">
                                                     </div>
                                                     </blockquote>
-                                                    <div > <span style="color:black;"><i class="icon-arrow-right"></i><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="color:black;"></span>Like</span>
-        <span style="color:black;"><span class="glyphicon glyphicon-comment" aria-hidden="true" style="color:black;"></span>Comment</span>
-                                                           </div>
-                      
-        
-                       
-                  
-
-                                                    
+                                
+                         <div > <span style="color:black;"><i class="icon-arrow-right"></i><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="color:black;"></span>Like</span>
+                         <span style="color:black;"><span class="glyphicon glyphicon-comment" aria-hidden="true" style="color:black;"></span>Comment</span>
+                                                            
+                         <span style="color:black;"><span class="glyphicon glyphicon-share" aria-hidden="true" style="color:black;"></span>share</span>                              
+                                                            
+                         </div>
+                         </div>
+                         </div>
+                                            <div class="panel-footer"><img src="http://i.imgur.com/5p8SaJO.jpg?2" class="image1"><input type="text" placeholder="&nbsp;write a comment... "  size="75" class="image1" >
+                         </div>
+                         </div><!--Ending of second post-->
+                            
+                <!--Initilisation of third post-->
+                            
+                         <div class="col-md-13"><div id="main1">
+                         <div class="panel panel-default">
+                         <div class="panel-heading">
+                                 <div>
+                                                    <h3 class="panel-title"><a href="#"><img src="http://i.imgur.com/g1do5r3.jpg?1"> <b>Nancy Sharma</b>&nbsp;</a>added a new video.
+                                 <br><h5 class="time">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 hrs <img src="http://i.imgur.com/czIJcco.png" height=12px width=12px>   </h5></h3>
+                                 </div>
                                             </div>
-                                            </div>
-                                            <div class="panel-footer"><img src="http://i.imgur.com/5p8SaJO.jpg?2" class="image1"><input type="text" placeholder="write a comment... "  size="75" class="image1" >
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    </div>
-                                            </div>
-                
-                
-                
-                 <div class="col-md-13"><div id="main1">
-                
-                                            <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                    <h3 class="panel-title"><a href="#"><img src="http://i.imgur.com/g1do5r3.jpg?1"> <b>Nancy Sharma</b>&nbsp;</a>added a new video.</h3>
-                                            </div>
-                                            <div class="panel-body">
-                                            <div>   <blockquote>
+                         <div class="panel-body">
+                         <div>                      <blockquote>
                                                     <div>
-                                                        <iframe width="520" height="415"
-                                                       src="https://www.youtube.com/embed/ryUxrFUk6MY">
-                                                        </iframe>
+                                                    <iframe width="520" height="520"
+                                                       src="https://www.youtube.com/embed/R38q_C4NApE" ></iframe>
+                                                     
                                                             
-                                                            
-                                                 </div>
+                                                    </div>
                                                     </blockquote>
-                                                   <div> <span style="color:black;"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="color:black;"></span>Like</span>
+                                                    <div> <span style="color:black;"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="color:black;"></span>Like</span>
         <span style="color:black;"><span class="glyphicon glyphicon-comment" aria-hidden="true" style="color:black;"></span>Comment</span>
-    </div>
-                      
-        
-                       
-                  
-
+                                                                       
+                              <span style="color:black;"><span class="glyphicon glyphicon-share" aria-hidden="true" style="color:black;"></span>share</span>                                                                              
+                              </div>
+                              </div>
+                              </div>
+                              <div class="panel-footer"><img src="http://i.imgur.com/5p8SaJO.jpg?2" class="image1"><input type="text" placeholder=" &nbsp write a comment... "  size="75" class="image1" ></div>
+                               </div>
+                               </div></div>
+                               </div></div>
+       <!--Ending of third post-->
+                
+                <div class="col-md-13"><div id="main1">
+                
+                        <div class="panel panel-default">
+                        <div class="panel-heading">
+                                <div>
+                                                    <h3 class="panel-title"><a href="#"><img src="http://i.imgur.com/iwSsj8P.jpg?1"><b> Anisha Dutta</b>&nbsp;</a>added some photos<br><h5 class="time">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 hrs. <img src="http://i.imgur.com/czIJcco.png" height=12px width=12px>   </h5></h3>
+                                 </div>
+                                            </div>
+                        <div class="panel-body">
+                        <div>   
+                        <blockquote>
                                                     
-                                            </div>
-                                            </div>
-                                            <div class="panel-footer"><img src="http://i.imgur.com/5p8SaJO.jpg?2" class="image1"><input type="text" placeholder="write a comment... "  size="75" class="image1" ></div>
-                                            </div>
-                
-                
-                
-                
+                                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://i.imgur.com/vo64WKM.jpg" style= "height:550; width:550;" alt="tiger">
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/ay5t8tl.jpg" style= "height:550; width:550;" alt="dog">
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/qsIohCs.jpg" style= "height:550; width:550;" alt="moon">
+    </div>
+     <div class="item">
+      <img src="http://i.imgur.com/qsIohCs.jpg" style= "height:550; width:550;" alt="moon">
+    </div>     
+          
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>                                
+</blockquote>
+                                
+                         <div > <span style="color:black;"><i class="icon-arrow-right"></i><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="color:black;"></span>Like</span>
+                         <span style="color:black;"><span class="glyphicon glyphicon-comment" aria-hidden="true" style="color:black;"></span>Comment</span>
+                                                            
+                         <span style="color:black;"><span class="glyphicon glyphicon-share" aria-hidden="true" style="color:black;"></span>share</span>                              
+                                                            
+                         </div>
+                         </div>
+                         </div>
+                                            <div class="panel-footer"><img src="http://i.imgur.com/5p8SaJO.jpg?2" class="image1"><input type="text" placeholder="&nbsp;write a comment... "  size="75" class="image1" >
+                         </div>
+                         </div>
                 
                 </div></div>
+                                  
+                                  
+                                  <button class ="loading">Load More...</button>
+                                  </div></div>
                 
-                </div></div></div></div>
-       
-        <div class="hidden-xs hidden-sm col-md-3" style="background-color:#dfe3ee;"><div id="sidebar">
                 
-
-    <ul class="nav nav-tabs" role="tablist">
-            
-            
-            
-            <div class="panel panel-default">
-            <div class="panel-body" style="height:90px">
-                 <img src="http://i.imgur.com/V4YcTzO.jpg?1"><span id="wire1"><b>1 gift</b>&nbsp;asked for by Ashish Sharma.</span><br>
-                 <img src="http://i.imgur.com/bV6G5tQ.png?1 "><span id="wire1"><b>Nancy Sharma</b>&nbsp;birthday is today&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                    </div></div>
-            
-            
-            
-            
-  
-   <div class="panel panel-default">
-  <div class="panel-body" >
+                
+                
+                
+                
+                
+                
+                <!-- Ending of mainbar--> 
+                <!--Starting of sidebar-->
+                                  <div></div>
+                               <div class="hidden-xs hidden-sm col-md-3" style="background-color:#dfe3ee;">
+                              <div id="sidebar">
+                               <ul class="nav nav-tabs" role="tablist">
+                               <div class="panel panel-default">
+                               <div class="panel-body" style="height:90px">
+                               <img src="http://i.imgur.com/V4YcTzO.jpg?1"><span id="wire1"><b>1 gift</b>&nbsp;asked for by Ashish Sharma.</span><br>
+                               <img src="http://i.imgur.com/bV6G5tQ.png?1 "><span id="wire1"><b>Nancy Sharma</b>&nbsp;birthday is today&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                               </div></div>
+                               <div class="panel panel-default">
+                               <div class="panel-body" >
  <b>Trending</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><img src="http://i.imgur.com/0xdFb2e.png" class="aaa" height="19px" width="19px"></a>&nbsp;<a href="#"><img src="http://i.imgur.com/jRZCbs4.png"height="18px" width="18px"></a>&nbsp;<a href="#"><img src="http://i.imgur.com/kskpuRx.png"height="18px" width="18px"></a>&nbsp;<a href="#"><img src="http://i.imgur.com/cSCKXTa.png"height="18px" width="18px"></a>&nbsp;<a href="#"><img src="http://i.imgur.com/MERlmLw.jpg"height="18px" width="18px"></a>
   </div>
   <div class="list-group" >
@@ -259,27 +337,24 @@
             </div>
             
             <div class="panel panel-default">
-  <div class="panel-body" style="height:375px">
-          <p><b id="wire2">Friend Requests</b><span>See all</span></p>
+            <div class="panel-body" style="height:375px">
+            <p><b id="wire2">Friend Requests</b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See all</span></p>
           
-          <img src="http://i.imgur.com/bRRBuu8.jpg?1" style="padding-bottom:24px;"><p class="arohi"><b>Arohi Bhatt</b><br id="3m"> 3 mutual friends<br><button>Confirm friend</button></p><br>
+            <img src="http://i.imgur.com/bRRBuu8.jpg?1" style="padding-bottom:24px;"><p class="arohi"><b>Arohi Bhatt</b><br id="3m"> 3 mutual friends<br><button>Confirm friend</button></p><br>
           
-          <img src="http://i.imgur.com/Hjz3atF.png?1" style="padding-bottom:24px;"><p class="sappy"><b>Sappy</b><br id="3m"> 20 mutual friends<br><button>Confirm friend</button></p><br>
+            <img src="http://i.imgur.com/Hjz3atF.png?1" style="padding-bottom:24px;"><p class="sappy"><b>Sappy</b><br id="3m"> 20 mutual friends<br><button>Confirm friend</button></p><br>
           
-           <img src="http://i.imgur.com/qoIOkJw.jpg?1" style="padding-bottom:24px;"><p class="nimra"><b>Nimra</b><br id="3m"> 59 mutual friends<br><button>Confirm friend</button></p>
+            <img src="http://i.imgur.com/qoIOkJw.jpg?1" style="padding-bottom:24px;"><p class="nimra"><b>Nimra</b><br id="3m"> 59 mutual friends<br><button>Confirm friend</button></p>
           
 </div>
 </div>
           
             <div class="panel panel-default">
             <div class="panel-body" style="height:70px">
-                    <p><b id="wire3">English(uk)</b>&nbsp;.English(us).हिन्दी&nbsp;.ਪੰਜਾਬੀ.
-                    <button class="button1" style="width:30px;">+</button>
-                    
-                    
-                    </p>
-          
-                    </div></div>
+            <p><b id="wire3">English(uk)</b>&nbsp;.English(us).हिन्दी&nbsp;.ਪੰਜਾਬੀ.
+            <button class="button1" style="width:30px;">+</button>
+            </p>
+            </div></div>
             <ul class="nav nav-tabs pull-right" >
                     <div class="zero">
   <li role="presentation"  style="display:inline;font-size:12px;color:red;" ><a href="#" class>Privacy.</a></li>
@@ -293,14 +368,15 @@
                   </a></li>
                             <li role="presentation"><a href="#">Facebook © 2017</a></li></div>
              
-</ul>
+    </ul>
             
-            
-            </div>
+                                      </ul>
                 </div>
-  <footer>
+                </div>
+        <footer>
   
         </footer>
+        <!--Ending of sidebar-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
