@@ -54,12 +54,12 @@ footer {
 }
 #header{
         height: 42px;
-        width:100%;
+        width: 1349px;
 }
 
 #main,
 #sidebar {
-  height: 800px;
+  height: 1000px;
 }
 #menu{
         height:auto;
@@ -220,11 +220,13 @@ h3{
         color: dodgerblue;
         font-size: 15px;
 }
-.media-body b{
+.nehagurung{
+        font-weight: 300;
         color:#365899;
+}
         
 }
-.media-body span{
+.neha{
         color:#365899;
         
 }
@@ -240,6 +242,7 @@ input{
 body{
         background-color: #dfe3ee;
 }
+
 #sidebar b{
         color:#90949c;
         font-size:13px;
@@ -258,18 +261,17 @@ body{
         color:#365899;
 }
 .panel-body span{
-        float:right;
         color:#365899;
 }
 .arohi{
-        color:#365899; !important;
+        color:#365899 !important;
         display: inline-block;
         margin-bottom: 15px;
         margin-left: 10px;
         padding-bottom: 5px;
 }
 #3m{
-        color:#365899; !important;
+        color:#90949c !important;
 }
 .panel-body img{
         margin-bottom: 13px;
@@ -308,4 +310,41 @@ input #search{
 
         border:o;
         
+}
+.sajunewar{
+        padding-bottom:15px;
+}
+#createpost{
+        color:black !important;
+}
+.photolive{
+        color:#365899;
+}
+h1h2{
+        margin:0px;
+        padding:0px;
+}
+.badgefooter{
+        margin-left: 12px;
+        background-color:  #dfe3ee;
+        padding:7px;
+        border-radius: 25px;
+        
+}
+.loading{   color: #90949c;
+            float: center;
+        border:none;
+}
+.time{
+        font-size: 12px;
+        margin:0;
+        padding:0px;
+        color: #90949c!important; 
+        
+}
+.headerbadge{
+        background-color: #fa3e3e;
+    border-radius: 2px;
+    color: #fff;
+    padding: 1px 3px;
 }
